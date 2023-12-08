@@ -1,11 +1,11 @@
 *{
-  clear:both;
-
+  clear: both;
+  box-sizing: border-box;
 }
 header li{
     list-style: none;
   }
-dir:link,h2:link,a:link{
+dir:link,h2:link{
   background-color:darkgrey;
   color:black;
   font-size: large;
@@ -16,12 +16,6 @@ dir:link,h2:link,a:link{
   text-align: center;
   
 }
-dir:hover{
-  background-color: lightgrey;
-  font-style: inherit;
-  font-size: 23px;
-}
-
 a:hover{
   
   font-style: inherit;
@@ -54,4 +48,10 @@ h2 {
   text-align: center;
   color: darkcyan !important;
 }
-
+div{
+  border: 1px solid black;
+  display: block;
+  font-size: 20px;
+  width: 50%;
+  text-align: left;
+}
