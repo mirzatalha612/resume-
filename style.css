@@ -5,7 +5,7 @@
 header li{
     list-style: none;
   }
-dir:link,h2:link{
+h2:link{
   background-color:darkgrey;
   color:black;
   font-size: large;
@@ -56,5 +56,5 @@ div{
   text-align: left;
 }
 .copy{
-  cursor:cell;
+  cursor: cell;
 }
